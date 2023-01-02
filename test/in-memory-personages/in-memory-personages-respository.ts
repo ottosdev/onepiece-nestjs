@@ -1,5 +1,5 @@
-import { Personages } from './../../src/entity/Personages/personages';
-import { PersonagesRepository } from './../../src/repositories/personages-repository';
+import { Personages } from '../../src/application/entity/Personages/personages';
+import { PersonagesRepository } from '../../src/application/repositories/personages-repository';
 
 export class InMemoryPersonagesRepository implements PersonagesRepository {
   async findByPersonageId(id: string): Promise<Personages> {

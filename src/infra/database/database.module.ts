@@ -1,6 +1,6 @@
 import { PrismaPersonagesRepository } from './prisma/repository/personages-prisma-repository';
 import { PrismaService } from './prisma/prisma.service';
-import { PersonagesRepository } from './../repositories/personages-repository';
+import { PersonagesRepository } from '../../application/repositories/personages-repository';
 import { Module } from '@nestjs/common';
 
 @Module({

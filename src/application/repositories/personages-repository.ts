@@ -1,4 +1,4 @@
-import { Personages } from './../entity/personages/personages';
+import { Personages } from '../entity/personages/personages';
 
 export abstract class PersonagesRepository {
   abstract create(personage: Personages): Promise<Personages>;

@@ -1,5 +1,5 @@
-import { Personages } from './../../entity/personages/personages';
-import { InMemoryPersonagesRepository } from './../../../test/in-memory-personages/in-memory-personages-respository';
+import { Personages } from '../../entity/personages/personages';
+import { InMemoryPersonagesRepository } from '../../../../test/in-memory-personages/in-memory-personages-respository';
 import { PersonagesService } from './personages.service';
 
 describe('PersonagesService', () => {

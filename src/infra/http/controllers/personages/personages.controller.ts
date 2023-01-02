@@ -1,9 +1,8 @@
-import { UpdatePersonageDTO } from './../../dtos/personages/updatePersonageDTO';
-import { FindByNameDTO } from '../../dtos/personages/findByNameDTO';
-import { PersonagesDTO } from '../../dtos/personages/personagesDTO';
-import { Personages } from './../../entity/Personages/personages';
+import { UpdatePersonageDTO } from '../../../../application/dtos/personages/updatePersonageDTO';
+import { PersonagesDTO } from '../../../../application/dtos/personages/personagesDTO';
+import { Personages } from '../../../../application/entity/Personages/personages';
 
-import { PersonagesService } from './../../services/personages/personages.service';
+import { PersonagesService } from '../../../../application/services/personages/personages.service';
 import {
   Body,
   Controller,

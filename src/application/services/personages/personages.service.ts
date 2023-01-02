@@ -1,9 +1,9 @@
-import { UpdatePersonageDTO } from './../../dtos/personages/updatePersonageDTO';
-import { GlobalErros } from './../../errors/GlobalErros';
-import { PersonagesRepository } from './../../repositories/personages-repository';
+import { UpdatePersonageDTO } from '../../dtos/personages/updatePersonageDTO';
+import { GlobalErros } from '../../errors/GlobalErros';
+import { PersonagesRepository } from '../../repositories/personages-repository';
 
 import { PersonagesDTO } from '../../dtos/personages/personagesDTO';
-import { Personages } from './../../entity/personages/personages';
+import { Personages } from '../../entity/personages/personages';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

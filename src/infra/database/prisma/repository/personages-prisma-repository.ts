@@ -1,6 +1,6 @@
-import { PrismaService } from './../prisma.service';
-import { Personages } from './../../../entity/personages/personages';
-import { PersonagesRepository } from './../../../repositories/personages-repository';
+import { PrismaService } from '../prisma.service';
+import { Personages } from '../../../../application/entity/personages/personages';
+import { PersonagesRepository } from '../../../../application/repositories/personages-repository';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
